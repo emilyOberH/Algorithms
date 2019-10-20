@@ -44,7 +44,7 @@ void display(int *A, int n){
 
 int quickSort(int *arr, int k, int *first, int *last, int n){
     int g = 0;
-    while(((*last)!=(*first))||g<=2){
+    while(((*last)!=(*first))){
         g = partitionArr(arr, k, first, last, n);
     }
     return g;
