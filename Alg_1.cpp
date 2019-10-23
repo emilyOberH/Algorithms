@@ -6,7 +6,7 @@ using namespace std;
 
 void display(int *, int);
 int partitionArr(int *, int, int *, int *, int);
-int quickSort(int *, int, int *, int *, int);
+int quickSelect(int *, int, int *, int *, int);
 
 int main(){
     srand(time(NULL));
@@ -26,7 +26,7 @@ int main(){
 
     int first = 0;
     int last = n-1;
-    int  g = quickSort(arr, k, &first, &last, n);
+    int  g = quickSelect(arr, k, &first, &last, n);
 
     cout<<"The "<<k<<"-largest number in array is: "<<arr[g]<<endl;
 
@@ -42,7 +42,7 @@ void display(int *A, int n){
     cout<<endl;
 }
 
-int quickSort(int *arr, int k, int *first, int *last, int n){
+int quickSelect(int *arr, int k, int *first, int *last, int n){
     int g = 0;
     while(((*last)!=(*first))){
         g = partitionArr(arr, k, first, last, n);
