@@ -5,3 +5,5 @@
   2) *Quicksort*: Program implements Quicksort algorithm to display a sorted array of random integers.
   
   3) *Selectionsort*: Program implements Selectionsort algorithm to display a sorted array of random integers.
+  
+  4) *Insertionsort*: Program implements Insertionsort algorithm to display a sorted array of random integers.
