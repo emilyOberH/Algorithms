@@ -32,16 +32,12 @@ int main(){
 void quickSort(int *A, int first, int last){
     if(first<last){
         int part = partitionArr(A, first, last);
-        //cout<<part-1<<endl;
-        //display(A, 10);
         if(first<part-1){
             quickSort(A, first, part-1);
         }
         if(last>part+1){
             quickSort(A, part+1, last);
         }
-        //++first;
-        //--last;
     }
 }
 
@@ -72,6 +68,5 @@ int partitionArr(int *arr, int first, int last){
     arr[i] = arr[last];
     arr[last] = tmp;
 
-    //cout<<i<<endl;
     return i;
 }
