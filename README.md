@@ -9,3 +9,5 @@
   4) *Insertionsort*: Program implements Insertionsort algorithm to display and sort an array of random integers.
 
   5) *Bubblesort*: Program implements Bubblesort algorithm to display and sort an array of random integers.
+  
+  5) *Mergesort*: Program implements Mergesort algorithm to display and sort an array of integers.
