@@ -10,4 +10,6 @@
 
   5) *Bubblesort*: Program implements Bubblesort algorithm to display and sort an array of random integers.
   
-  5) *Mergesort*: Program implements Mergesort algorithm to display and sort an array of integers.
+  //5) *Mergesort*: Program implements Mergesort algorithm to display and sort an array of integers.
+  
+  7) *Heapsort*: Program implements Heapsort algorithm to display and sort an array of integers recursively.
