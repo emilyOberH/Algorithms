@@ -6,7 +6,6 @@ using namespace std;
 void display(vector <int> );
 vector <int> merge(vector <int> , vector <int> );
 vector <int> mergeSort(vector <int> );
-void partition(vector <int>  *, int, int);
 
 int main()
 {
