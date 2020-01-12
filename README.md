@@ -12,4 +12,4 @@
   
   6) *Mergesort*: Program implements Mergesort algorithm to display and sort an array of integers recursively.
   
-  7) *Heapsort*: Program implements Heapsort algorithm to display and sort an array of integers recursively.
+  7) *Heapsort*: Program implements Heapsort algorithm to display and sort an array of integers recursively. One version with arrays, the other with vectors.
